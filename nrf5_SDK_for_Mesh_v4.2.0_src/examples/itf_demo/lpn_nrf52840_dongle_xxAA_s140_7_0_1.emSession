@@ -1,0 +1,58 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="lpn_nrf52840_dongle_xxAA_s140_7.0.1"/>
+  <ProjectSessionItem path="lpn_nrf52840_dongle_xxAA_s140_7.0.1;lpn_nrf52840_dongle_xxAA_s140_7.0.1"/>
+  <ProjectSessionItem path="lpn_nrf52840_dongle_xxAA_s140_7.0.1;lpn_nrf52840_dongle_xxAA_s140_7.0.1;Application"/>
+  <ProjectSessionItem path="lpn_nrf52840_dongle_xxAA_s140_7.0.1;lpn_nrf52840_dongle_xxAA_s140_7.0.1;Core"/>
+  <ProjectSessionItem path="lpn_nrf52840_dongle_xxAA_s140_7.0.1;lpn_nrf52840_dongle_xxAA_s140_7.0.1;Other"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="8" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../doc/getting_started/SES.md" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="392" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="src/main.c" selected="1" top="402" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="167" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../common/src/simple_hal.c" selected="0" top="153" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="63" useTextEdit="1" openedFrom="/Volumes/DriveD/workspace/BLUESS_BLE/nrf5_SDK_for_Mesh_v4.2.0_src/examples/common/src/simple_hal.c" useBinaryEdit="0" left="0" path="../../../nRF5_SDK_16.0.0_98a08e2/components/boards/pca10059.h" selected="0" top="40" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="799" useTextEdit="1" openedFrom="/Volumes/DriveD/workspace/BLUESS_BLE/nrf5_SDK_for_Mesh_v4.2.0_src/examples/lpn/src/main.c" useBinaryEdit="0" left="0" path="../../mesh/core/src/lpn.c" selected="0" top="793" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="57" useTextEdit="1" openedFrom="/Volumes/DriveD/workspace/BLUESS_BLE/nrf5_SDK_for_Mesh_v4.2.0_src/mesh/core/src/lpn.c" useBinaryEdit="0" left="0" path="../../mesh/core/src/mesh_lpn_subman.c" selected="0" top="44" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="674" useTextEdit="1" openedFrom="/Volumes/DriveD/workspace/BLUESS_BLE/nrf5_SDK_for_Mesh_v4.2.0_src/examples/lpn/src/main.c" useBinaryEdit="0" left="0" path="../../../nRF5_SDK_16.0.0_98a08e2/components/softdevice/s140/headers/nrf_soc.h" selected="0" top="662" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="12813" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="include/sdk_config.h" selected="0" top="12813" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="990" useTextEdit="1" openedFrom="/Volumes/DriveD/workspace/BLUESS_BLE/nrf5_SDK_for_Mesh_v4.2.0_src/examples/lpn/src/main.c" useBinaryEdit="0" left="0" path="../../external/app_timer/app_timer_mesh.c" selected="0" top="979" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="69" useTextEdit="1" openedFrom="/Volumes/DriveD/workspace/BLUESS_BLE/nrf5_SDK_for_Mesh_v4.2.0_src/examples/lpn/src/main.c" useBinaryEdit="0" left="0" path="../common/src/rtt_input.c" selected="0" top="57" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="41" useTextEdit="1" openedFrom="/Volumes/DriveD/workspace/BLUESS_BLE/nrf5_SDK_for_Mesh_v4.2.0_src/examples/lpn/src/main.c" useBinaryEdit="0" left="0" path="../common/include/example_common.h" selected="0" top="30" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="lpn_nrf52840_dongle_xxAA_s140_7.0.1" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

@@ -1,0 +1,46 @@
+{
+	"TaskFlows":	[{
+
+			"parent_task":	"f_temp",
+			"child_task":	"f_temp",
+			"condition":	{
+				"variable": "temp",
+                                "value":	1000,
+                                "typeCondition": "wait"
+
+			}
+		}, {
+			"parent_task":	"f_temp",
+			"child_task":	"f_store",
+                        "condition": {
+                                "variable": "novariable",
+                                "value": 0,
+                                "typeCondition": "nocondition"
+                        }
+		}, {
+			"parent_task":	"f_store",
+			"child_task":	"f_compute",
+			"condition":	{
+				"variable":	"temp_size",
+				"value":	3,
+				"typeCondition":	"GE"
+			}
+		}, {
+			"parent_task":	"f_compute",
+			"child_task":	"f_transmit",
+			"condition":	{
+                                "variable": "avg_temp",
+                                "value": 1,
+				"typeCondition":	"available"
+			}
+		}, {
+			"parent_task":	"f_transmit",
+			"child_task":	"f_led",
+			"condition":	{
+                                "variable": "novariable",
+                                "value": 0,
+				"typeCondition":	"nocondition"
+			}
+
+		}]
+}

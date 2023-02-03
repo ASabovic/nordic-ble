@@ -1,0 +1,93 @@
+{
+	"Tasks":	[{
+			"functionName":	"f_temp",
+			"energyConsumption":	{
+				"value":	1380,
+				"unit":	"microA"
+			},
+			"executionTime":	{
+				"value": 	12,
+				"unit":	"milliseconds"
+			},
+			"priority":	3,
+			"firstTask": 1,
+			"requiredVoltage": 240243,
+			"output":	{
+				"name":	"temperature",
+				"typeOutput":	"integer"
+			}	
+		}, {
+			"functionName":	"f_store",
+			"energyConsumption":	{
+				"value":	1510,
+				"unit":	"microA"
+			},
+			"executionTime":	{
+				"value":	12,
+				"unit":	"milliseconds"
+			},
+			"priority":	5,
+			"firstTask": 0,
+			"requiredVoltage": 240259,
+			"inputs":	{
+				"name":	"temperature",
+				"typeInput":	"integer"
+			},
+			"output":	{
+				"name":	"temp_size",
+				"typeOutput":	"integer"
+			}
+		}, {
+			"functionName":	"f_compute",
+			"energyConsumption":	{
+				"value":	1540,
+				"unit":	"microA"
+			},
+			"executionTime":	{
+				"value":	12,
+				"unit":	"milliseconds"
+			},
+			"priority":	8,
+			"firstTask": 0,
+			"requiredVoltage": 240267,
+			"inputs":	{
+				"name":	"temp_size",
+				"typeInput":	"integer"
+			},
+			"output":	{
+				"name":	"avg_temp",
+				"typeOutput":	"integer"
+			}
+		}, {
+			"functionName":	"f_transmit",
+			"energyConsumption":	{
+				"value":	570,
+				"unit":	"microA"
+			},
+			"executionTime":	{
+				"value":	36,
+				"unit":	"milliseconds"
+			},
+			"priority":	10,
+			"firstTask": 0,
+			"requiredVoltage": 240282,
+			"inputs":	{
+				"name":	"avg_temp",
+				"typeInput":	"integer"
+			}
+		}, {
+			"functionName":	"f_led",
+			"energyConsumption":	{
+				"value":	5970,
+				"unit":	"microA"
+			},
+			"executionTime":	{
+				"value":	508,
+				"unit":	"milliseconds"
+			},
+			"priority":	4,
+			"firstTask": 0,
+			"requiredVoltage": 288345
+
+		}]
+}
